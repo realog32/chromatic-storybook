@@ -12,6 +12,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   >
     {{ label }}
   </button>`,
+  standalone: true,
   styleUrls: ['./button.css'],
 })
 export default class ButtonComponent {
