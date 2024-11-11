@@ -1,7 +1,9 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import type { User } from './User';
+import ButtonComponent from './button.component';
 
 @Component({
+  imports: [ButtonComponent],
   selector: 'storybook-header',
   template: `<header>
     <div class="wrapper">
@@ -59,6 +61,7 @@ import type { User } from './User';
     </div>
   </header>`,
   styleUrls: ['./header.css'],
+  standalone: true,
 })
 export default class HeaderComponent {
   @Input()
