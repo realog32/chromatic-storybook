@@ -65,7 +65,7 @@
     "msw": "^2.3.0",
     "msw-storybook-addon": "^2.0.3",
     "storybook": "^8.3.3",
-    "typescript": "~5.4.5"
+    "typescript": "~5.2.2"
   },
   "homepage": "https://github.com/chromaui/intro-storybook-angular-template#readme"
 }
