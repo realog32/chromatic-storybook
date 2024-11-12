@@ -9,5 +9,6 @@ import { KENDO_BUTTONS } from '@progress/kendo-angular-buttons';
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
-  disabled = Input();
+  // disabled = Input();
+  render = false;
 }
