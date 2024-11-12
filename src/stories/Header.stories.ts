@@ -13,8 +13,8 @@ const meta: Meta<Header> = {
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({
-      declarations: [Button],
-      imports: [CommonModule],
+      declarations: [],
+      imports: [Button, CommonModule],
     }),
   ],
   parameters: {
