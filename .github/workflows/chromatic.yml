@@ -22,6 +22,3 @@ jobs:
         with:
           # ⚠️ Make sure to configure a `CHROMATIC_PROJECT_TOKEN` repository secret
           projectToken: chpt_f3c4e68ddfae6f6
-
-
-# npx chromatic --project-token=chpt_f3c4e68ddfae6f6
